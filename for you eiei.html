@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="" href="style.css">
+    <title>For you eiei</title>
+<style>
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .main-content{
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+}
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f9e3e3;
+        font-family: 'Arial', sans-serif;
+        flex-direction: column;
+}
+    h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifS;
+        font-size: 60px;}
+    .btm{
+        margin-top: 20px;
+}
+    #yes{
+        font-size: 1.5em;
+        padding: 10px 20px;
+        margin-right: 10px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(0, 255, 13);
+}
+    #no{
+        font-size: 1.5em;
+        padding: 10px 20px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(165, 42, 42);
+}
+</style>
+</head>
+<body>
+    <div class="main-content">
+        <h1>Will you be my valentine</h1>
+        <div class="pic">
+            <img class="cat-img" src="img/sad0.jpg" width="300px" height="300px">
+        </div>
+        <div class="btm">
+            <button id="yes"onclick="handleYesClick()">   YES   </button>
+            <button id="no"onclick="handleNoClick()" onclick="clickchange()">  NO  </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
