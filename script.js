@@ -41,6 +41,6 @@ function changeImage(image) {
   }
 
 function handleYesClick() {
-    window.location.href = "http://127.0.0.1:5500/yesindex.html";
+    window.location.href = "yesindex.html";
 }
 
