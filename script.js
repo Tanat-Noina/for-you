@@ -17,7 +17,7 @@ const messages = [
 
 let messageIndex = 0;
 let noCount = 0;
-const MAX_IMAGES = 10;
+const MAX_IMAGES = 11;
 let play = true;
 
 
@@ -31,6 +31,7 @@ function handleNoClick() {
           const imageIndex = Math.min(noCount, MAX_IMAGES);
           changeImage(imageIndex);
           if (noCount === MAX_IMAGES) {
+            document.getElementById("no").style.display = "none";
             play = false;
           }
         }
